@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* General Styles */
+/* General Styles */
     
   html {
     font-size: 16px;
@@ -97,6 +97,7 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
   }
     
    ul, 
@@ -112,13 +113,15 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
+    font-weight: 500;
   }
 
   h3, 
   h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.25em;
     margin: 20px 0;
+    font-weight: 500;
   }
     
   p {
@@ -151,6 +154,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #202322;
 }
 
 header {
@@ -177,6 +181,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-weight: 700;
+  font-size: 1.125em;
 }
 
 header nav ul {
@@ -213,7 +219,15 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,6 +283,7 @@ input[type=button] {
 }
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -403,6 +418,11 @@ input[type=button] {
         margin: 100px 0;
     }
 
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+}
+
     /* Header */
     header {
       justify-content: space-around;
@@ -441,7 +461,9 @@ input[type=button] {
     }
 
     /* Features */
- 
+    .features h2 {
+      margin-bottom: 20px;
+    }
     .features article {
       display: flex;
       justify-content: space-between;
@@ -452,6 +474,10 @@ input[type=button] {
     }
  
     /* Reviews */
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
+  }
     .reviews article {
       display: flex;
       justify-content: space-between;
@@ -530,9 +556,17 @@ input[type=button] {
       max-width: 960px;
     }
 
+    h2 {
+      font-size: 2.25em;
+    }
+    h3, h4 {
+      font-size: 1.875em;
+  }
+
     /* Hero */
     .hero-area h1 {
-      width: 40%;
+      width: 60%;
+      font-size: 3.75em;
     }
 
     /* Aside */
@@ -548,7 +582,7 @@ input[type=button] {
  
     /* Features */
     .features h2 {
-      width: 85%;
+      width: 90%;
     }
  
     .features article {
@@ -561,6 +595,11 @@ input[type=button] {
     /* Reviews */ 
     .reviews article div {
         width: 40%;
+    }
+    
+    p {
+      font-size: 1.125em;
+      line-height: 1.333;
     }
 
 /* ==========================================================================
